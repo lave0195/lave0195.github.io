@@ -2,6 +2,7 @@
 <html>
 <head>
 	<title>HTML Forms</title>
+	<!-- The HTML style attribute is used to add styles to an element, such as color, font, size, and more. -->
 	<style>
 	table, th, td {
  	 border: 1px solid black;
@@ -9,18 +10,22 @@
 	table, th, td {
 		text-align: center;
 	}
-	</style>
+	</style>	
 </head>
 <body>
 	<header id="header">
+		<!-- Each element can have only one ID -->
 		<h1>Assignment 2</h1>
 	</header>
 
 	<h2>Employee List</h2>
 	<table>
+		<!-- The <table> tag defines an HTML table. -->
 		<thead>
 			<tr>
+				<!-- define each table row with a <tr> tag -->
 				<th>Id</th>
+				<!-- The <th> elements are bold and centered -->
 				<th>Name</th> 
 				<th>email</th>
 			</tr>
@@ -28,6 +33,7 @@
 		<tbody>
 			<tr>
 				<td>1</td>
+				<!-- define each table data with a <td> tag -->
     			<td>John</td>
     			<td>john@fakemail.com</td>
   			</tr>
@@ -55,6 +61,7 @@
   		<tfoot>
    			<tr>
       			<td colspan="3">
+      				<!-- colspan makes a cell span columns -->
       			All of the above are Division Heads
       			</td>
  	 		</tr>
@@ -62,11 +69,17 @@
 	</table>
 	<main id="main">
 		<section id="aminal-images" class="main-section">
+			<!--You can use the same class on multiple elements-->
 			<h2>Animals</h2>
 			<article>
 				<figure>
 				<img src="img/elephant.jpg" alt="Elephant Image" width="300"  height="200">
-				<figcaption>This is an Elephant</figcaption>
+				<!--  img tag is used to create image on a document-->
+				<!-- "img" is a direct sibling folder of index -->
+				<!-- "elephant" is the name of the image file -->
+				<!-- alt  is used for alternative text for the image -->
+				<!-- images are sized to 300*200-->
+				<figcaption>This is an Elephant</figcaption><!-- the figcaptions are captions-->
 				</figure>
 				<figure>
 				<img src="img/lion.jpg" alt="Lion Image" width="300"  height="200">
@@ -88,6 +101,7 @@
 		</section>
 		<section>
             	<h2>HTML Entities</h2>
+            	<!-- Reserved characters in HTML must be replaced with character entities. -->
             	<article>
             		<p>Non Breaking Space: &#160;</p>
             		<p>ampersand : &#38;</p>
@@ -99,8 +113,11 @@
             	<h2>Special Tags</h2>
             	<article id="descrip-list" class="special-tag">
             		<dl> 
+            			<!-- <dl> tag is used to create description list -->
             			<dt>Coffee</dt> 
+            			<!-- dt is for the individual term  -->
             			<dd>-black hot drink</dd> 
+            			<!-- dd is for the individual description -->
             			<dt>Milk</dt> 
             			<dd>-white cold drink</dd>
             		</dl>
@@ -108,9 +125,11 @@
             	<article id="abbr" class="special-tag">
             		<p><abbr  title="Hypertext Markup Language">HTML</abbr ></p>
             		<p><abbr  title="Cascading Style Sheets">CSS</abbr ></p>
+            		<!-- did abbreviation for both, wasn't sure why CSS looked different in the pdf-->
             	</article>
             	<article id="details" class="special-tag">
             		<details> 
+            			<!-- The <details> tag contains additional details, a special secret that will help us later  -->
 				       <summary>What is a mobile Phone?</summary>
 				       <p>A mobile phone, cell phone or hand phone, sometimes shortened to simply mobile, cell or just phone, is a portable telephone that can make and receive calls over a radio frequency link while the user is moving within a telephone service area.</p>
 					</details>
