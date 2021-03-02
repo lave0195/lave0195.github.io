@@ -13,6 +13,31 @@
 			<label for="LastName">Last Name</label>
 			<input type="text" name="LastName" id="LastName" placeholder="Last Name">
 		</div>
+		<div id="email-container" class="form-elm">
+			<label for="email">Email</label>
+			<input type="email" name="email" id="email" value="example@mail.com" readonly>
+		</div>
+		<div id="pass-container" class="form-elm">
+			<label for="pass">Password</label>
+			<input type="password" name="pass" id="pass" required>
+		</div>
+		<div id="intro-container" class="form-elm">
+			<label for="introduction">Introduction</label>
+			<textarea name="introduction" id="introduction" placeholder="Enter Introduction here">
+				Introductory text
+			</textarea>
+		</div>
+		<div id="db-container" class="form-elm">
+			<label for="dte">Date of Birth</label>
+			<input type="date" name="dte" id="dte"><br>
+		</div>
+		<div id="pn-container" class="form-elm">
+			<label for="phone">Enter a phone number:</label>
+			<input type="tel" id="phone" name="phone" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+		</div>
+		
+
+
 		<button type="submit">Submit</button>
 		<button type="reset">Reset</button>
 	</form>
