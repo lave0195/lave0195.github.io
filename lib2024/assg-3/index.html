@@ -62,9 +62,6 @@
 				<option value="other">Other</option>
 			</select>
 		</div>
-
-
-
 		<div id="pr-container" class="form-elm">
 			<label for="Province">Province/State</label>
 			<select id="Province" name="Province">
@@ -81,10 +78,28 @@
 				</optgroup>
 			</select>
 		</div>
+		<div id="pc-container" class="form-elm">
+			<label for="post">Postal Code</label>
+			<input type="text" name="Postal" id="Postal" placeholder="A1B 2C3">
+		</div>
+		<div id="hobbies-container" class="form-elm">
+			<h3>Hobbies</h3>
+			<label for="cookery">Cooking or baking</label>
+			<input type="checkbox" name="hobbies" id="cookery" value="cookery"> <br>
+			
+			<label for="exercise">Exercising</label>
+			<input type="checkbox" name="hobbies" id="exercise" value="exercise"> <br>
+			
+			<label for="music">Playing or appreciating music</label>
+			<input type="checkbox" name="hobbies" id="music" value="music"> <br>
 
-
-
-
+			<label for="brewing">Brewing Beer</label>
+			<input type="checkbox" name="hobbies" id="brewing" value="brewing"> <br>
+		</div>
+		<div id="ur-container" class="form-elm">
+			<label for="ur">Enter a URL:</label>
+			<input type="url" name="ur" id="ur" ><br>
+		</div>
 		<button type="submit">Submit</button>
 		<button type="reset">Reset</button>
 	</form>
