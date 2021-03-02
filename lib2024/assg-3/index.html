@@ -35,7 +35,54 @@
 			<label for="phone">Enter a phone number:</label>
 			<input type="tel" id="phone" name="phone" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
 		</div>
-		
+		<div id="radio-container" class="form-elm">
+			<p>Gender?</p>
+			<label for="yes">
+				<input type="radio" name="like-form" id="yes" value="yes" checked>
+				Yes
+			</label>
+			<label>
+				<input type="radio" name="like-form" id="no" value="no">
+				No
+			</label>
+		</div>
+		<div id="add-container" class="form-elm">
+			<label for="add">Address</label>
+			<input type="text" name="Address" id="Address" placeholder="123 Example Ave.">
+		</div>
+		<div id="ct-container" class="form-elm">
+			<label for="ct">City</label>
+			<input type="text" name="City" id="City" placeholder="Toronto">
+		</div>
+		<div id="ctr-container" class="form-elm">
+			<label for="Country">Country</label>
+			<select id="Country" name="Country">
+				<option value="canada">Canada</option>
+				<option value="united_states">United States</option>
+				<option value="other">Other</option>
+			</select>
+		</div>
+
+
+
+		<div id="pr-container" class="form-elm">
+			<label for="Province">Province/State</label>
+			<select id="Province" name="Province">
+				<optgroup label="Canada">
+					<option value="ontario">Ontario</option>
+					<option value="quebec">Quebec</option>
+					<option value="british_columbia">British Columbia</option>
+					<option value="pei">Prince Edward Island</option>
+				</optgroup>
+				<optgroup label="United States">
+					<option value="oregon">Oregon</option>
+					<option value="georgia">Georgia</option>
+					<option value="michigan">Michigan</option>
+				</optgroup>
+			</select>
+		</div>
+
+
 
 
 		<button type="submit">Submit</button>
