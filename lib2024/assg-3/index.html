@@ -4,10 +4,14 @@
 	<title>HTML Forms</title>
 </head>
 <body>
-	<form action="somepage.php" method="get">
+	<form action="dumpster.php" method="get">
+		<!-- action and method are required for Form-->
+		<!-- submitted info will go to "dumpster.php" unencrypted -->
 		<div id="fn-container" class="form-elm">
 			<label for="FirstName">First name</label>
 			<input type="text" name="FirstName" id="FirstName" placeholder="First name" required>
+			<!-- text gives a place for text-->
+			<!-- required attribute is used so it won't let the user submit without adding this value-->
 		</div>
 		<div id="ln-container" class="form-elm">
 			<label for="LastName">Last Name</label>
@@ -15,14 +19,17 @@
 		</div>
 		<div id="email-container" class="form-elm">
 			<label for="email">Email</label>
-			<input type="email" name="email" id="email" value="example@mail.com" readonly required>
+			<!-- input in email field must contain a @ symbol to be valid -->
+			<input type="email" name="email" id="email" placeholder="example@mail.com" required>
 		</div>
 		<div id="pass-container" class="form-elm">
 			<label for="pass">Password</label>
-			<input type="password" name="pass" id="pass" required>
+			<!-- input type ="password" is used to create password inputs, what the user writes will be hidden -->
+			<input type="password" name="pass" id="pass" placeholder="******"required>
 		</div>
 		<div id="intro-container" class="form-elm">
 			<label for="introduction">Introduction</label>
+			<!-- A textarea lets you submit information that is more than one line -->
 			<textarea name="introduction" id="introduction" placeholder="Enter Introduction here">
 				Introductory text
 			</textarea>
@@ -30,15 +37,19 @@
 		<div id="db-container" class="form-elm">
 			<label for="dte">Date of Birth</label>
 			<input type="date" name="dte" id="dte"><br>
+			<!-- date creates calendar picker, fancy, also validates that input is a date -->
 		</div>
 		<div id="pn-container" class="form-elm">
 			<label for="phone">Enter a phone number:</label>
 			<input type="tel" id="phone" name="phone" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+			<!-- tel defines a field for entering a telephone number, the pattern attribute specifies how the input value is checked on submission-->
 		</div>
 		<div id="radio-container" class="form-elm">
 			<p>Gender?</p>
 			<label for="yes">
 				<input type="radio" name="like-form" id="yes" value="yes" checked>
+				<!-- only one radio button in a group can be selected at the same time -->
+				<!--checked will mark them as checked by default -->
 				Yes
 			</label>
 			<label>
@@ -57,7 +68,9 @@
 		<div id="ctr-container" class="form-elm">
 			<label for="Country">Country</label>
 			<select id="Country" name="Country">
+				<!-- select element is used to create a drop-down list -->
 				<option value="canada">Canada</option>
+				<!-- option tags inside the select element define the available options in the drop-down list -->
 				<option value="united_states">United States</option>
 				<option value="other">Other</option>
 			</select>
@@ -66,6 +79,7 @@
 			<label for="Province">Province/State</label>
 			<select id="Province" name="Province">
 				<optgroup label="Canada">
+					<!-- optgroup tag is used to group related options in a select element -->
 					<option value="ontario">Ontario</option>
 					<option value="quebec">Quebec</option>
 					<option value="british_columbia">British Columbia</option>
@@ -86,7 +100,7 @@
 			<h3>Hobbies</h3>
 			<label for="cookery">Cooking or baking</label>
 			<input type="checkbox" name="hobbies" id="cookery" value="cookery"> <br>
-			
+			<!-- checkboxes allow multiple selections -->
 			<label for="exercise">Exercising</label>
 			<input type="checkbox" name="hobbies" id="exercise" value="exercise"> <br>
 			
@@ -98,10 +112,13 @@
 		</div>
 		<div id="ur-container" class="form-elm">
 			<label for="ur">Enter a URL:</label>
-			<input type="url" name="ur" id="ur" ><br>
+			<input type="url" name="ur" id="ur" placeholder="www.webaddress.horse"><br>
+			<!-- input type url is validates if input is a url -->
 		</div>
 		<button type="submit">Submit</button>
+		<!-- submit submits all form values to a form-handler, specified in the form's action attribute, here "dumpster.php" -->
 		<button type="reset">Reset</button>
+		<!-- a reset button which resets all form values to initial values -->
 	</form>
 </body>
 </html>
