@@ -60,11 +60,12 @@ table {
 @charset "utf-8";
 
 
+.col-main, .col-footer, img {
+	width:100%;
+}
+
 header {
 	background: #70db70;
-	padding: 15px;
-	width: 100%;
-	box-sizing: border-box;
 }
 
 
