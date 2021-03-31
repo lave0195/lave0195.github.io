@@ -75,6 +75,13 @@ header {
 	box-sizing: border-box;
 }
 
+.desktop-nav {
+	float: right;
+	width: calc(100% - 100px);
+	display: none;
+	/*This is to make sure the content remains in the readable area for screen sizes that are larger than a tablet*/
+	max-width: 600px;
+}
 
 
 /*main content styles*/
