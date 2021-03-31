@@ -68,6 +68,13 @@ header {
 	background: #70db70;
 }
 
+.logo {
+	float: left;
+	width:100px;
+	padding: 15px;
+	box-sizing: border-box;
+}
+
 
 
 /*main content styles*/
