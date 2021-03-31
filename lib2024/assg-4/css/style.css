@@ -53,13 +53,6 @@ table {
 
 .clearfix:after {
 	content: "";
-	display: table;
-	clear: both;
-}
-
-
-.clearfix:after {
-	content: "";
 	clear: both;
 	display: table;
 }
