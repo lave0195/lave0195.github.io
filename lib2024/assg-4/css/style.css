@@ -93,3 +93,13 @@ footer {
 	box-sizing: border-box;
 }
 
+.col-header {
+	width: 25%;
+	/*total width = 31% + 1%(left margin) + 1% (right margin) */
+	box-sizing: border-box;
+	/*border box adjusts the width according to the padding only and does not consider margins*/
+	/*Therefore the space used by margins should be manually adjusted in the width declaration*/
+	margin: 0 1%;
+	padding: 10px;
+	float: left;
+}
