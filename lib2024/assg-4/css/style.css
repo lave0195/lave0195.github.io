@@ -1,0 +1,38 @@
+/*CSS document  to add external styles for the HTML document*/
+@charset "utf-8";
+body {
+	background-image: url("../images/brick_wall.png");
+}
+
+header {
+	background: #70db70;
+
+}
+
+
+
+/*main content styles*/
+.site-content {
+
+	background: #f2f2f2;
+	padding: 15px;
+	width:100%;
+	box-sizing: border-box;
+}
+
+.site-sidebar {
+	background: #f2f2f2;
+	padding: 15px;
+	width: 100%;
+	box-sizing: border-box;
+}
+
+
+
+/*footer styles*/
+footer {
+	background: #70db70;
+	padding: 15px;
+	width: 100%;
+	box-sizing: border-box;
+}
