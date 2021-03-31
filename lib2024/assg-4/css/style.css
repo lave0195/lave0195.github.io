@@ -4,8 +4,8 @@
 
 .clearfix:after {
 	content: "";
-	display: table;
 	clear: both;
+	display: table;
 }
 
 @charset "utf-8";
