@@ -59,7 +59,9 @@ table {
 
 @charset "utf-8";
 
-
+body {
+	background-image: url("../img/white-waves.png");
+}
 
 
 header {
