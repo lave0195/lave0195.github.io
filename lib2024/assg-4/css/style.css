@@ -57,6 +57,16 @@ table {
 	clear: both;
 	display: table;
 }
+h1 {
+
+	font-family: 'Roboto', sans-serif;
+}
+
+p {
+
+	font-family: 'Roboto', sans-serif;
+
+}
 
 body {
 	background-image: url("../img/white-waves.png");
