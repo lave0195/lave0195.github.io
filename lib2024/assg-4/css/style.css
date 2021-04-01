@@ -124,7 +124,7 @@ footer {
 /*This is to make sure the main content is in the readbable area for large screen sizes*/
 header, main, footer {
 
-	max-width: 1280px;
+	max-width: 960px;
 	margin: 0 auto;
 
 }
