@@ -141,6 +141,12 @@ header, main, footer {
 	box-sizing: border-box;
 }
 
+
+.site-content2 {
+	float: left;
+	width: 100%;
+	box-sizing: border-box;
+}
 .col-header {
 	width: 25%;
 	/*total width = 31% + 1%(left margin) + 1% (right margin) */
