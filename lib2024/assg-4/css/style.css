@@ -181,6 +181,9 @@ footer {
 	box-sizing: border-box;
 }
 
+.foot-nav {
+	float: right;
+}
 	.col-footer {
 		width: 31%;
 		/*total width = 31% + 1%(left margin) + 1% (right margin) */
