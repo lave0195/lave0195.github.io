@@ -1,0 +1,37 @@
+
+Title of Page
+Target Screen:Desktop
+
+Prototype Image Link: src="img/webpage-mock-up.jpg"
+
+Dimensions:
+Element 	Width 	Height 	Parent
+Page 	100% 	Auto 	N/A
+Header 	100% 	1px 	Page
+Main 	100% 	Auto 	Page
+Article 70% 	1px 	Main
+Aside 	30% 	1px 	Main
+Article2 100% 	1px 	Main
+Footer 	100% 	1px 	Page
+Image 	Auto 	1px 	Aside
+
+Colors:
+Color 	Used for 	Used as 	Hex value 	RGB Values 	Opacity
+Black 	Text 	Primary 	#000000 	(0,0,0) 	1
+Green 	Header&Footer 	Primary 	#7cc576 	RGB(124,197,118) 	1
+Blue 	Navigation 	Accent 	#6dcff6 	RGB(109,207,246) 	1
+BG White 	Background 	Primary 	#ffffff 	RGB(255,255,255) 	1
+
+Fonts:
+Name 	Use 	Size 	Weight
+Roboto 	Body Text 	16px 	normal
+Roboto 	Headers 	Auto 	normal
+URLs:
+
+Roboto : https://fonts.googleapis.com/css2?family=Roboto&display=swap
+
+Background Images:
+
+White Waves Pattern Made by Stas Pimenov 
+
+https://www.toptal.com/designers/subtlepatterns/white-waves-pattern/    
