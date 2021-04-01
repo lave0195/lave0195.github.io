@@ -60,6 +60,19 @@ table {
 h1 {
 
 	font-family: 'Roboto', sans-serif;
+	font-size: 500%
+}
+
+h2 {
+
+	font-family: 'Roboto', sans-serif;
+	font-size: 300%
+}
+
+h3 {
+
+	font-family: 'Roboto', sans-serif;
+	font-size: 200%
 }
 
 p {
