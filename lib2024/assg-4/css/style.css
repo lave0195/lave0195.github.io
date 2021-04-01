@@ -129,6 +129,14 @@ header, main, footer {
 
 }
 
+.desktop-nav {
+	display: block;
+}
+
+.mobile-nav {
+	display: none;
+}
+
 .site-content {
 	float: left;
 	width: 70%;
