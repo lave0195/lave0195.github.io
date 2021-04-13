@@ -13,6 +13,24 @@
 				transform: rotate(360deg);
 
 			}
+
+			.rotate-me {
+				width: 200px;
+				height: 200px;
+				animation
+				spin 2s linear 5;
+
+			}
+						@keyframes spin {
+				from {
+				transform: rotate(0deg);
+			}
+			/*to sets the ending of the property in an animation*/
+			to {
+				transform: rotate(360deg);
+			}
+
+		}
 		</style>
 	<title>LIB2024 - QA</title>
 </head>
@@ -168,7 +186,7 @@
 			</p>
 			<p>
 				<strong>Ans:</strong>
-				<div class="box transform-rotate">Spin</div>
+				
 
 			</p>
 			<!-- Qus 15 -->
@@ -183,7 +201,7 @@
 			</p>
 			<p>
 				<strong>Ans: </strong>
-				Ans for Qus 15
+				<div class="rotate-me"></div>
 		</p></li>
 		<!-- Qus 16 -->
 		<li>
