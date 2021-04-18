@@ -256,6 +256,7 @@ footer {
 
 	.col-footer {
 		width: 31%;
+		background: #454545;
 		box-sizing: border-box;
 		margin: 0 1%;
 		padding: 10px;
