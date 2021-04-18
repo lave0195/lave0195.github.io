@@ -2,13 +2,18 @@ window.onload = init;
 
 function init() {
 
-	$('#loadTable').click(function (e) {
-   		 e.preventDefault();
-   		 $(".overlay-container").fadeIn(1000, function(){
-   		 		createTableFromJSON();
-   		 		$('.overlay-container').delay(500).fadeOut(500);
-   		 })
-	});
+    // JQuery function attached to the submit event of the form with id "form"
+    $('#loadTable').click(function (e) {
+        // e.preventDefualt to avoid the form being submitted to page specified in action attribute 
+         e.preventDefault();
+         // fadeIn is a jQuery function to fadeIn an element 
+         $(".overlay-container").fadeIn(1000, function(){
+                // call the createTableFromJSON function
+                createTableFromJSON();
+                 // fadeOut is a jQuery function to fadeOut an element 
+                $('.overlay-container').delay(500).fadeOut(500);
+         })
+    });
 
 }
 
@@ -34,6 +39,8 @@ function createTableFromJSON() {
             }
         ]
 
+        // EXTRACT VALUE FOR HTML HEADER. 
+        // ('Student ID', 'Name', 'Email' and 'Marks')
         var col = [];
         for (var i = 0; i < myBooks.length; i++) {
             for (var key in myBooks[i]) {
@@ -60,11 +67,11 @@ function createTableFromJSON() {
         // this loops through the Mybooks object
         for (var i = 0; i < myBooks.length; i++) {
 
-        	// create a row for each object row and add to the end of the table
+            // create a row for each object row and add to the end of the table
             tr = table.insertRow(-1);
 
             for (var j = 0; j < col.length; j++) {
-				// create a cell for each object column and add to the end of the row
+                // create a cell for each object column and add to the end of the row
                 var tabCell = tr.insertCell(-1);
                 // add HTML data to the TableCell
                 // select i'th value from mybooks 
@@ -76,6 +83,7 @@ function createTableFromJSON() {
             }
         }
 
+        // FINALLY ADD THE NEWLY CREATED TABLE WITH JSON DATA TO A CONTAINER.
         var divContainer = document.getElementById("json_table");
         divContainer.innerHTML = "";
         divContainer.appendChild(table);
