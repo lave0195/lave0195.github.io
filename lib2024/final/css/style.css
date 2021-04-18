@@ -83,8 +83,7 @@ header {
 
 .logo {
 	float: left;
-	width:120px;
-	padding: 15px;
+	width:100%;
 	box-sizing: border-box;
 	background: #ffffff;
 	/*box-sizing border box makes the width adjust according to padding*/
