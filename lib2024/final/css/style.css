@@ -62,6 +62,7 @@ table {
 
 	Logo white : #ffffff;
 	Blue : #BBDEFB;
+	blue 2 : 72a9ae;
 	Footer grey : #454545;
 
 */
@@ -112,7 +113,6 @@ header {
 	box-sizing: border-box;
 	padding: 10px;
 	border-left: 2px solid #444;
-	background: #F44336;
 }
 
 
