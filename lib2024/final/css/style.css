@@ -101,7 +101,6 @@ header {
 
 .desktop-nav li {
 	box-sizing: border-box;
-	width: 20%;
 	padding: 10px;
 	float: left;
 	/*This is required to make sub-nav positioned absolute to the main navigation li containers*/
