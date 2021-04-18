@@ -176,6 +176,9 @@ header {
 
 /*main content styles*/
 
+	main {
+		background: url("img/main-bg.png");
+	}
 
 
 /*footer styles*/
