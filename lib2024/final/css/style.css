@@ -180,6 +180,18 @@ header {
 		background: url("../img/main-bg.png");
 	}
 
+	.main-content {
+		float: left;
+		width: 70%;
+		box-sizing: border-box;
+	}
+
+	.main-image {
+		float: left;
+		width: 30%;
+		box-sizing: border-box;
+	}
+
 
 /*footer styles*/
 
