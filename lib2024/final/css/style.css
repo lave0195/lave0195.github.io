@@ -309,6 +309,22 @@ footer {
 		bottom: 0;
 	}
 
+	.col-main profile-edit {
+		width: 48%;
+		box-sizing: border-box;
+		margin: 0 1%;
+		padding: 10px;
+		float: left;
+	}
+
+	
+	.col-main profile-info {
+		width: 48%;
+		box-sizing: border-box;
+		margin: 0 1%;
+		padding: 10px;
+		float: left;
+	}
 
 	.col-footer {
 		width: 31%;
