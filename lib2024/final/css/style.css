@@ -78,6 +78,21 @@ table {
 
 h1 {
     font-family: 'anagramregular';
+    color: #72a9ae;
+
+}
+
+h2 {
+    font-family: 'anagramregular';
+    font-size:150%;
+    color: #72a9ae;
+}
+
+h4 {
+    font-family: 'anagramregular';
+    font-size:150%;
+    color: #ffffff;
+
 }
 
 p {
@@ -119,7 +134,6 @@ header {
 	display: block;
 	box-sizing: border-box;
 	padding: 10px;
-	border-left: 2px solid #444;
 }
 
 
