@@ -238,6 +238,8 @@ table {
   width: 100%;
   margin: 0 auto;
   border: 1px solid black;
+  padding: 20px;
+
 
 }
 
@@ -256,6 +258,16 @@ tr:nth-child(odd) {
   background-color: #FFF;
 }
 
+th{
+	font-family: 'Noto Sans JP', sans-serif;
+    font-size: 120%;
+    color: #72a9ae;
+    font-weight: bold;
+}
+
+td{
+	font-family: 'Noto Sans JP', sans-serif;
+}
 
 .profile-edit {
 	float: left;
