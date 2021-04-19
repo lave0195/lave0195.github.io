@@ -79,7 +79,7 @@ table {
 h1 {
     font-family: 'anagramregular';
     color: #72a9ae;
-    font-size:x-large;
+    font-size:xx-large;
 
 }
 
@@ -98,6 +98,12 @@ h4 {
 
 p {
 	font-family: 'Noto Sans JP', sans-serif;
+}
+
+li {
+	font-family: 'Noto Sans JP', sans-serif;
+    font-size:larger;
+    color: #ffffff;
 }
 
 /* Header styles */ 
