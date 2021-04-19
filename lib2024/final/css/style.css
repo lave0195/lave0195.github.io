@@ -293,13 +293,14 @@ td{
   text-align: center;
   background: #ffffff;
   padding: 20px;
+}
 
+.card hover {
   transition-property: width;
   transition-property: height;
   transition-duration: 1s;
   transition-timing-function: linear;
   transition-delay: 1s;
-		}
 }
 
 
