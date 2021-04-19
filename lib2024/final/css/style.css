@@ -255,6 +255,8 @@ tr:nth-child(odd) {
   max-width: 300px;
   margin: auto;
   text-align: center;
+  background: #ffffff;
+
 }
 
 /*footer styles*/
