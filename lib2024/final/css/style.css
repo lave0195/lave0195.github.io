@@ -207,8 +207,7 @@ header {
 /*main content styles*/
 
 	main {
-		background: url("../img/main-bg.png");
-		opacity: 0.5;
+		background: url("../img/main-bg.png") opacity: 0.5;
 	}
 
 	.main-content {
