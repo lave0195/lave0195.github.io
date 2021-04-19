@@ -85,11 +85,11 @@
 				<form id="form" action="submit.php" method="post">
 					<p>
 						<label>Name:</label>
-						<input type="text" name="name" id="name">
+						<input type="text" name="name" id="name" placeholder="John Doe">
 					</p>
 					<p>
 						<label>Email:</label>
-						<input type="email" required name="email" id="email">
+						<input type="email" required name="email" id="email" placeholder="abc@gmail.com">
 					</p>
 					<p>
 						<label>Address:</label>
@@ -97,11 +97,31 @@
 					</p>
 					<p>
 						<label>City:</label>
-						<input type="text" name="city" id="city">
+						<input type="text" name="city" id="city" placeholder="Ottawa">
 					</p>
 
 					<p>
-						<label>Postal Code</label>
+						<label>Province:</label>
+						<select name="prov" id="prov">
+							<option value="AB">Alberta</option>
+							<option value="BC">British Columbia</option>
+							<option value="MB">Manitoba</option>
+							<option value="NB">New Brunswick</option>
+							<option value="NL">Newfoundland & Labrador</option>
+							<option value="NS">Nova Scotia</option>
+							<option value="ON">Ontario</option>
+							<option value="PE">Prince Edward Island</option>
+							<option value="QC">Quebec</option>
+							<option value="SK">Saskatchewan</option>
+							<option value="NT">Northwest Territories</option>
+							<option value="NU">Nunavut</option>
+							<option value="YK">Yukon</option>
+						</select> 
+
+					</p>
+
+					<p>
+						<label>Postal Code: </label>
 						<input type="text" required="" pattern="[A-Za-z][0-9][A-Za-z] [0-9][A-Za-z][0-9]" value="" name="pc" id="pc" placeholder="A0A 0A0">
 					</p>
 
