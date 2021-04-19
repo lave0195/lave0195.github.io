@@ -248,6 +248,19 @@ tr:nth-child(odd) {
   background-color: #FFF;
 }
 
+
+
+	.profile-edit {
+		float: left;
+		width: 70%;
+		box-sizing: border-box;
+	}
+
+	.profile-info {
+		float: left;
+		width: 30%;
+		box-sizing: border-box;
+	}
 /*card styles*/
 
 .card {
