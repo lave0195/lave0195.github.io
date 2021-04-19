@@ -254,21 +254,21 @@ tr:nth-child(odd) {
 }
 
 
-	.profile-edit {
-		float: left;
-		width: 60%;
-		box-sizing: border-box;
-		padding: 20px;
+.profile-edit {
+	float: left;
+	width: 60%;
+	box-sizing: border-box;
+	padding: 20px;
 
-	}
+}
 
-	.profile-info {
-		float: left;
-		width: 40%;
-		box-sizing: border-box;
-		padding: 20px;
+.profile-info {
+	float: left;
+	width: 40%;
+	box-sizing: border-box;
+	padding: 20px;
 
-	}
+}
 /*card styles*/
 
 .card {
@@ -277,6 +277,7 @@ tr:nth-child(odd) {
   margin: auto;
   text-align: center;
   background: #ffffff;
+  padding: 20px;
 
 }
 
