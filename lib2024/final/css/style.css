@@ -76,6 +76,14 @@ table {
 	width:100%;
 }
 
+h1 {
+    font-family: 'anagramregular';
+}
+
+p {
+	font-family: 'Noto Sans JP', sans-serif;
+}
+
 /* Header styles */ 
 header {
 	background: #72a9ae;
@@ -293,10 +301,3 @@ footer {
 
 }
 
-h1 {
-    font-family: 'anagramregular';
-}
-
-p {
-	font-family: 'Noto Sans JP', sans-serif;
-}
