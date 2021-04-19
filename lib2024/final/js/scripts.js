@@ -1,6 +1,23 @@
 window.onload = init;
 
+
+function showHideMobileMenu() {
+
+    var mobileNav = document.querySelector('.mobile-nav');
+        if(mobileNav.style.display=="block") {
+        mobileNav.style.display="none";
+    } else {
+        mobileNav.style.display="block";
+    }
+}
+
 function init() {
+
+    var imgThumbs = document.querySelectorAll('.main-image');
+    for (var i = 0; i < imgThumbs.length; i++) {
+
+      imgThumbs[i].addEventListener('click', showImgLightBox);
+    }
 
     $('#form').submit(function (e) {
          e.preventDefault();
@@ -26,6 +43,14 @@ function showformValues(form){
     });              
 }
 
-function myFunction() {
-  document.getElementById("myForm").submit();
+function showImgLightBox(){
+    var targetImgId = this.getAttribute("id");
+    console.log(targetImgId);
+    document.querySelector('#main-image').style.display ="block";
+    document.querySelector('.main-image.active').classList.remove('active');
+    document.querySelector("#"+targetImgId).classList.add('active');
+}
+
+function hideImgLightBox(){
+    document.querySelector('#image-gallery-overlay').style.display ="none";
 }
