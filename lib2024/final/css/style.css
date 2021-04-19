@@ -61,8 +61,7 @@ table {
 	Color Pallete
 
 	Logo white : #ffffff;
-	Blue : #BBDEFB;
-	blue 2 : 72a9ae;
+	Blue : #72a9ae;
 	Footer grey : #454545;
 
 */
@@ -224,6 +223,12 @@ header {
 		box-sizing: border-box;
 	}
 
+	.main-image:hover img{
+	opacity: 1;
+	box-shadow: 3px 5px 10px rgba(0,0,0,0.5);
+	cursor: pointer;
+}
+
 
 /** Table Style **/
 
@@ -249,17 +254,20 @@ tr:nth-child(odd) {
 }
 
 
-
 	.profile-edit {
 		float: left;
 		width: 60%;
 		box-sizing: border-box;
+		padding: 20px;
+
 	}
 
 	.profile-info {
 		float: left;
 		width: 40%;
 		box-sizing: border-box;
+		padding: 20px;
+
 	}
 /*card styles*/
 
