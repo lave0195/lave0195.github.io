@@ -222,6 +222,8 @@ header {
 		float: left;
 		width: 30%;
 		box-sizing: border-box;
+		padding: 20px;
+
 	}
 
 	.main-image:hover img{
