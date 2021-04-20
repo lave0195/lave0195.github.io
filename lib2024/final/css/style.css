@@ -123,7 +123,6 @@ header {
 		padding-top: 5px;
 		position: relative;
 		float: right;
-		/*this is used to create a pointer for element*/
 		cursor: pointer;
 	}
 
@@ -165,7 +164,8 @@ header {
 	box-sizing: border-box;
 	width:100%;
 	padding: 10px;
-	border-bottom: 2px solid #121212;
+	border-bottom: 2px solid #000000;
+	background: #72a9ae;
 
 }
 
