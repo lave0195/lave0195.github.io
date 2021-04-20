@@ -1,15 +1,6 @@
 window.onload = init;
 
 
-function showHideMobileMenu() {
-
-    var mobileNav = document.querySelector('.mobile-nav');
-        if(mobileNav.style.display=="block") {
-        mobileNav.style.display="none";
-    } else {
-        mobileNav.style.display="block";
-    }
-}
 
 function init() {
 
@@ -49,8 +40,4 @@ function showImgLightBox(){
     document.querySelector('#main-image').style.display ="block";
     document.querySelector('.main-image.active').classList.remove('active');
     document.querySelector("#"+targetImgId).classList.add('active');
-}
-
-function hideImgLightBox(){
-    document.querySelector('#image-gallery-overlay').style.display ="none";
 }
