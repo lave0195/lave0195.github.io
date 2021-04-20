@@ -300,11 +300,6 @@ button:hover{
   padding: 20px;
 }
 
-.card:hover {
-	width: 500px;
-	transition: all 1s ease-in-out;
-}
-
 
 div#results {
   border-radius: 5px;
