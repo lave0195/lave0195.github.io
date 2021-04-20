@@ -75,38 +75,6 @@ table {
 	width:100%;
 }
 
-h1 {
-    font-family: 'anagramregular';
-    color: #72a9ae;
-    font-size:xx-large;
-
-}
-
-h2 {
-	font-family: 'Noto Sans JP', sans-serif;
-    font-size:150%;
-    color: #72a9ae;
-    font-weight: bold;
-    padding: 10px;
-}
-
-h4 {
-	font-family: 'Noto Sans JP', sans-serif;
-    font-size:120%;
-    color: #ffffff;
-
-}
-
-p {
-	font-family: 'Noto Sans JP', sans-serif;
-}
-
-li {
-	font-family: 'Noto Sans JP', sans-serif;
-    font-size:larger;
-    color: #000000;
-}
-
 /* Header styles */ 
 header {
 	background: #72a9ae;
@@ -134,7 +102,6 @@ header {
 	box-sizing: border-box;
 	padding: 10px;
 	float: left;
-	/*This is required to make sub-nav positioned absolute to the main navigation li containers*/
 	position: relative;
 }
 
@@ -301,7 +268,7 @@ select {
 button {
   width: 100%;
   background-color: #72a9ae;
-  opacity:1
+  opacity:1;
   color: white;
   padding: 14px 20px;
   margin: 8px 0;
@@ -423,6 +390,38 @@ footer {
 		padding: 10px;
 		float: left;
 	}
+}
+
+h1 {
+    font-family: 'anagramregular';
+    color: #72a9ae;
+    font-size:xx-large;
+
+}
+
+h2 {
+	font-family: 'Noto Sans JP', sans-serif;
+    font-size:150%;
+    color: #72a9ae;
+    font-weight: bold;
+    padding: 10px;
+}
+
+h4 {
+	font-family: 'Noto Sans JP', sans-serif;
+    font-size:120%;
+    color: #ffffff;
+
+}
+
+p {
+	font-family: 'Noto Sans JP', sans-serif;
+}
+
+li {
+	font-family: 'Noto Sans JP', sans-serif;
+    font-size:larger;
+    color: #000000;
 }
 
 
