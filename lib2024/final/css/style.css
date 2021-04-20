@@ -327,6 +327,10 @@ footer {
 	overflow: auto;
 }
 
+ul#soc li {
+  display:inline;
+}
+
 @media only screen and (min-width: 768px) {
 
 	header, main, footer {
