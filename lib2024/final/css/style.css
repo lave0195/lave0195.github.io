@@ -71,7 +71,7 @@ table {
 ************************/
 
 /*Make sure major containers in your HTML file are set to 100% width to achieve Fluid Layout */
-.col-main, .col-footer, img {
+.col-main-content, .col-site-schedule, .col-profile-edit, .col-profile-info, .col-footer, img {
 	width:100%;
 }
 
