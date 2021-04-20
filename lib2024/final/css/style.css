@@ -375,10 +375,10 @@ ul#soc li {
 	}
 
 	.profile-info {
-	float: left;
-	width: 40%;
-	box-sizing: border-box;
-	padding: 20px;
+		float: left;
+		width: 40%;
+		box-sizing: border-box;
+		padding: 20px;
 	}
 
 
