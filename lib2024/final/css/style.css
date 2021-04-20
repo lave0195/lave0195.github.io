@@ -301,6 +301,7 @@ select {
 button {
   width: 100%;
   background-color: #72a9ae;
+  opacity:1
   color: white;
   padding: 14px 20px;
   margin: 8px 0;
@@ -308,6 +309,10 @@ button {
   border-radius: 4px;
   cursor: pointer;
   transition: all 0.3s ease;
+} 
+
+button:hover{
+  opacity:0.5;
 }
 
 .profile-info {
@@ -331,7 +336,6 @@ button {
 .card:hover {
 	width: 500px;
 	transition: all 1s ease-in-out;
-	cursor: pointer;
 }
 
 
