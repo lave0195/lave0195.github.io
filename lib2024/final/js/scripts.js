@@ -1,7 +1,5 @@
 window.onload = init;
 
-
-
 function init() {
 
     var imgThumbs = document.querySelectorAll('.main-image');
@@ -34,10 +32,18 @@ function showformValues(form){
     });              
 }
 
+function showHideMobileMenu() {
+
+  var mobileNav = document.querySelector('.mobile-nav');
+
+
 function showImgLightBox(){
     var targetImgId = this.getAttribute("id");
     console.log(targetImgId);
     document.querySelector('#main-image').style.display ="block";
     document.querySelector('.main-image.active').classList.remove('active');
-    document.querySelector("#"+targetImgId).classList.add('active');
+}
+
+function hideImgLightBox(){
+  document.querySelector('#image-gallery-overlay').style.display ="none";
 }
