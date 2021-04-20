@@ -177,29 +177,6 @@ header {
 		background: url("../img/main-bg.png");
 	}
 
-	.main-content {
-		float: left;
-		width: 70%;
-		box-sizing: border-box;
-		padding: 20px;
-
-	}
-
-	.main-image {
-		float: left;
-		width: 30%;
-		box-sizing: border-box;
-		padding: 20px;
-
-	}
-
-	.main-image:hover img{
-	opacity: 1;
-	box-shadow: 3px 5px 10px rgba(0,0,0,0.5);
-	cursor: pointer;
-}
-
-
 /** Table Style **/
 
 table {
@@ -236,13 +213,6 @@ td{
 	font-family: 'Noto Sans JP', sans-serif;
 }
 
-.profile-edit {
-	float: left;
-	width: 60%;
-	box-sizing: border-box;
-	padding: 20px;
-
-}
 
 input[type=text] {
   width: 100%;
@@ -282,13 +252,6 @@ button:hover{
   opacity:0.5;
 }
 
-.profile-info {
-	float: left;
-	width: 40%;
-	box-sizing: border-box;
-	padding: 20px;
-
-}
 /*card styles*/
 
 .card {
@@ -380,6 +343,45 @@ ul#soc li {
 		position: absolute;
 		bottom: 0;
 	}
+
+	.main-content {
+		float: left;
+		width: 70%;
+		box-sizing: border-box;
+		padding: 20px;
+
+	}
+
+	.main-image {
+		float: left;
+		width: 30%;
+		box-sizing: border-box;
+		padding: 20px;
+
+	}
+
+	.main-image:hover img{
+		opacity: 1;
+		box-shadow: 3px 5px 10px rgba(0,0,0,0.5);
+		cursor: pointer;
+	}
+
+
+	.profile-edit {
+		float: left;
+		width: 60%;
+		box-sizing: border-box;
+		padding: 20px;
+	}
+
+	.profile-info {
+	float: left;
+	width: 40%;
+	box-sizing: border-box;
+	padding: 20px;
+	}
+
+
 
 	.col-footer {
 		width: 31%;
