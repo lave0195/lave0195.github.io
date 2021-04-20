@@ -295,12 +295,13 @@ td{
   padding: 20px;
 }
 
-.card hover div{
-  transition-property: width;
-  transition-property: height;
-  transition-duration: 1s;
-  transition-timing-function: linear;
-  transition-delay: 1s;
+.card:hover {
+	background: #72a9ae;
+	z-index: -1;
+    position:relative;
+	transition-duration: 1s;
+	transition-timing-function: linear;
+	transition-delay: 1s;
 }
 
 
