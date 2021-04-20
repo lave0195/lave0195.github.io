@@ -311,7 +311,7 @@ select {
 
 .card:hover {
 	width: 500px;
-	transition: all 1s ease-in-out
+	transition: all 1s ease-in-out;
 	cursor: pointer;
 }
 
