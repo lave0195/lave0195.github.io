@@ -295,7 +295,7 @@ td{
   padding: 20px;
 }
 
-.card hover {
+.card hover div{
   transition-property: width;
   transition-property: height;
   transition-duration: 1s;
